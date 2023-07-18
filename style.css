@@ -2,11 +2,115 @@
 border:red solid 1px;
 }  */
 
+/* Small devices (576px and up) */
+@media (max-width: 576px) {
+  body {
+    font-size: 1rem;
+  }
+  li {
+    font-size: .8rem;
+  }
+  .hero-text-small {
+
+    font-size: .8rem;
+  }
+  
+  .hero-text-large {
+    margin: 2rem 0;
+    font-size: 2rem;
+  }
+  
+  .hero-text-link {
+
+    margin-top: 4rem;
+    font-size: .8rem;
+
+  }
+
+.profile-body {
+  line-height: 0.7em;
+  font-size: 1rem;
+}
+
+
+.text-small {
+  font-size: .8rem;
+}
+
+.text-xs {
+  width: 85%;
+  font-size: .8rem;
+}
+
+.text-large {
+  font-size: 2rem;
+}
+
+.text-md {
+  font-size: 1.8rem;
+}
+.card-header {
+  font-size: 1.1rem;
+}
+
+.text-largest {
+  font-size: 2rem;
+  font-weight: 900;
+}
+footer p {
+  font-size: 1rem;
+}
+
+
+}
+
+/* Medium devices (768px and up) */
+@media (max-width: 700px) {
+  .section-1 {
+    overflow: hidden;
+    margin: 1em 0;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .brands {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 19vh;
+    box-shadow: rgb(221, 221, 221) 20px 30px 50px;
+  }
+
+  .right-section-1 {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(221, 221, 221) 20px 30px 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .cards-container {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
 body {
+  /* overflow-x: hidden; */
   margin: 0;
   color: white;
-  font-size: 1.8vw;
   font-family: "Poppins";
+  font-size: 1.2rem;
 }
 
 ul {
@@ -15,7 +119,7 @@ ul {
   width: 100%;
 }
 li {
-  font-size: 0.8vw;
+  font-size: 1rem;
   margin: 0.6em 0;
   width: 100%;
 }
@@ -68,20 +172,20 @@ li {
 .hero-text-small {
   font-weight: 100;
   width: 45%;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .hero-text-large {
   font-weight: 900;
   margin: 4rem 0;
-  width: 40%;
-  font-size: 3.5vw;
+  font-size: 3rem;
 }
 
 .hero-text-link {
+  width: 100%;
   font-weight: 600;
   margin-top: 5rem;
-  font-size: 1vw;
+  font-size: 1rem;
   color: #f8d436;
   text-decoration: underline;
 }
@@ -91,9 +195,11 @@ li {
 }
 
 .brands {
+  padding: 1rem;
   position: absolute;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   top: 92%;
   right: 0;
   background-color: white;
@@ -103,6 +209,8 @@ li {
 }
 
 .brands-img {
+min-width: 50px;
+  min-height: 55px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
@@ -113,7 +221,6 @@ li {
   color: #222;
   display: flex;
   justify-content: space-between;
-  height: 80vh;
 }
 
 .section-2 {
@@ -130,7 +237,7 @@ li {
   gap: 1em;
 }
 .right-section-1 {
-  padding: 5em 1em 0 1em;
+  padding: 5em 0 0 0;
   display: flex;
   flex-direction: column;
   width: 24vw;
@@ -182,36 +289,37 @@ li {
 }
 
 .blockquote {
+  line-height: 1.3rem;
   font-style: italic;
 }
 
 .profile-body {
+  width: 100%;
   line-height: 0.8em;
   display: flex;
   flex-direction: column;
   gap: 1em;
-  align-items: start;
   font-weight: 500;
-  font-size: 1.1vw;
+  font-size: 1.1rem;
 }
 
 .profile {
-  padding-top: 1em;
+  padding: .8rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 1em;
+  gap: 1rem;
 }
 
 .text-small {
   font-weight: 100;
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 .text-xs {
   font-weight: 100;
   width: 65%;
-  font-size: 0.8vw;
+  font-size: 1rem;
 }
 
 .text-grey {
@@ -219,15 +327,13 @@ li {
 }
 
 .text-large {
-  width: 50vw !important;
   font-weight: 900;
-  font-size: 2vw;
+  font-size: 2.5rem;
 }
 
 .text-md {
-  width: 50vw !important;
   font-weight: 800;
-  font-size: 0.9vw;
+  font-size: 1.9rem;
 }
 
 .text-light-grey {
@@ -258,33 +364,19 @@ li {
 
 .quote-card {
   position: absolute;
-  left: 24%;
-  margin-top: 19%;
-  padding: 0.8em;
-  display: flex;
-  flex-direction: column;
-  width: 27vw;
-  height: 30vh;
-  box-shadow: rgb(221, 221, 221) 10px 20px 50px;
-  background-color: white;
-  border-radius: 0.3em;
-  line-height: 0.7em;
-}
-
-.quote-card-2 {
-  position: absolute;
   right: 24%;
   margin-top: 19%;
   padding: 0.8em;
   display: flex;
   flex-direction: column;
   width: 27vw;
-  height: 30vh;
   box-shadow: rgb(221, 221, 221) 10px 20px 50px;
   background-color: white;
   border-radius: 0.3em;
   line-height: 0.7em;
 }
+
+
 
 .section-5 {
   margin: 8em 0 3em 0;
@@ -315,7 +407,7 @@ li {
 }
 
 .card-header {
-  font-size: 1.4vw;
+  font-size: 1.4rem;
 }
 
 .card-footer {
@@ -323,7 +415,7 @@ li {
 }
 
 .text-largest {
-  font-size: 4vw;
+  font-size: 3.7rem;
   font-weight: 900;
 }
 
@@ -338,19 +430,25 @@ li {
 }
 
 .section-6 {
-  position:absolute;
-  bottom
+  position:relative;
+  padding: .3rem 1rem;
   width: 75vw;
   background-color: #fafafa;
   color: rgb(94, 92, 92);
 }
 
 .footer {
+  margin-top: -10rem;
   background-color: #444935;
 }
 
+.footer li:hover{
+cursor: pointer;
+color: white;
+}
+
 .contact{
-  padding-top: 11em;
+  padding-top: 10rem;
 }
 
 .row {
@@ -367,7 +465,7 @@ ul {
 }
 
 footer p {
-  font-size: 1vw;
+  font-size: 1.2rem;
 }
 
 .services{
@@ -385,7 +483,7 @@ footer p {
 }
 
 .copyright {
-  font-size: 0.8vw;
+  font-size: 0.8rem;
 }
 
 .fa-brands{
@@ -406,14 +504,6 @@ footer p {
 hr{
   border: 0.1px solid #687053;
 }
-/* Small devices (576px and up) */
-@media (min-width: 576px) {
-}
 
-/* Medium devices (768px and up) */
-@media (min-width: 768px) {
-}
 
-/* Large devices (992px and up) */
-@media (min-width: 992px) {
-}
+
