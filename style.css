@@ -70,7 +70,6 @@ li {
 
 .hero-text-small {
   font-weight: 100;
-  width: 45%;
   font-size: 1rem;
 }
 
@@ -136,7 +135,7 @@ min-width: 50px;
   gap: 1em;
 }
 .right-section-1 {
-  padding: 5em 0 0 0;
+  padding: 7em 0 0 0;
   display: flex;
   flex-direction: column;
   width: 24vw;
@@ -441,10 +440,8 @@ hr{
   }
   
   .hero-text-link {
-
     margin-top: 4rem;
     font-size: .8rem;
-
   }
 
 .profile-body {
@@ -541,7 +538,7 @@ footer p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 70vh;
+  height: 90vh;
   width: 100%;
 }
 
