@@ -69,8 +69,9 @@ li {
 }
 
 .hero-text-small {
+  width: 50%;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .hero-text-large {
@@ -216,7 +217,7 @@ min-width: 50px;
 
 .text-small {
   font-weight: 100;
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
 
 .text-xs {
@@ -354,7 +355,7 @@ min-width: 50px;
 }
 
 .footer {
-  margin-top: -10rem;
+  margin-top: -9rem;
   background-color: #444935;
 }
 
@@ -430,7 +431,7 @@ hr{
     font-size: .8rem;
   }
   .hero-text-small {
-
+    width: 80%;
     font-size: .8rem;
   }
   
