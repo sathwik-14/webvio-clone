@@ -1,52 +1,50 @@
-
 @media (max-width: 768px) {
-    body {
-      font-size: 1rem;
-    }
-    li {
-      font-size: .8rem;
-    }
-    .hero-text-small {
-      width: 80%;
-      font-size: .8rem;
-    }
-    
-    .hero-text-large {
-      margin: 2rem 0;
-      font-size: .1rem;
-    }
-    
-    .hero-text-link {
-      margin-top: 4rem;
-      font-size: .8rem;
-    }
-  
+  body {
+    font-size: 1rem;
+  }
+  li {
+    font-size: 0.8rem;
+  }
+  .hero-text-small {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+
+  .hero-text-large {
+    margin: 2rem 0;
+    font-size: 0.1rem;
+  }
+
+  .hero-text-link {
+    margin-top: 4rem;
+    font-size: 0.8rem;
+  }
+
   .profile-body {
     line-height: 0.7em;
     font-size: 1rem;
   }
-  
-  
+
   .text-small {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-  
+
   .text-xs {
     width: 85%;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
-  
+
   .text-large {
     font-size: 2rem;
   }
-  
+
   .text-md {
     font-size: 1.8rem;
   }
   .card-header {
     font-size: 1.1rem;
   }
-  
+
   .text-largest {
     font-size: 2rem;
     font-weight: 900;
@@ -54,12 +52,11 @@
   footer p {
     font-size: 1rem;
   }
-  
-  
+
   .hero-text-large {
     font-size: 2rem;
   }
-  
+
   .section-1 {
     overflow: hidden;
     margin: 1em 0;
@@ -68,7 +65,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .brands {
     position: relative;
     width: auto;
@@ -81,10 +78,10 @@
     box-shadow: rgb(221, 221, 221) 20px 30px 50px;
   }
 
-  .brands-img{
+  .brands-img {
     aspect-ratio: 4/3;
   }
-  
+
   .right-section-1 {
     margin: 2rem 0;
     padding: 1rem;
@@ -100,32 +97,32 @@
     line-height: 1.6rem;
     font-style: italic;
   }
-  
+
   .blockquote-1 {
     line-height: 2rem;
     font-style: italic;
     font-size: 1rem;
     margin: 1rem 0;
   }
-  
-  .gr-img{
-    height:60px ;
+
+  .gr-img {
+    height: 60px;
     width: 60px;
   }
-  
+
   .row {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
-  
+
   .cards-container {
     margin: 1em 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
-  
+
   .hero-bg {
     background-image: url("images/hero-bg.png");
     background-size: cover;
@@ -134,17 +131,17 @@
     height: 100%;
     width: 100%;
   }
-  
+
   .section-2 {
     margin: 2rem 0;
     flex-direction: column;
   }
-  
+
   .right-section-2 {
     padding: 1rem 7%;
     width: 80%;
   }
-  
+
   .section-3 {
     overflow: hidden;
     margin: 1em 0;
@@ -153,9 +150,7 @@
     gap: 3em;
     color: black;
   }
-  
-  
-  
+
   .right-section-3 {
     padding: 1rem 7%;
     display: flex;
@@ -163,12 +158,12 @@
     gap: 1em;
     width: 80vw;
   }
-  
+
   .left-section-3 {
     width: 100vw;
     height: 100%;
   }
-  
+
   .quote-card {
     position: relative;
     left: 7%;
@@ -183,7 +178,7 @@
     border-radius: 0.3em;
     line-height: 0.7em;
   }
-  
+
   .quote-card-1 {
     position: relative;
     left: 7%;
@@ -198,21 +193,19 @@
     border-radius: 0.3em;
     line-height: 0.7em;
   }
-  
-  
-  
+
   .section-4 {
     overflow: hidden;
     margin: 1em 0;
     flex-direction: column;
     gap: 3rem;
   }
-  
+
   .right-section-4 {
     width: 100vw;
     height: 100%;
   }
-  
+
   .left-section-4 {
     padding: 1rem 7%;
     display: flex;
@@ -220,18 +213,18 @@
     gap: 1em;
     width: 80%;
   }
-  
+
   .section-5 {
     margin: 1em 1em 0 1em;
     color: black;
   }
-  
+
   .cards-container {
     margin: 1em 0;
     display: flex;
     justify-content: space-around;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
@@ -241,46 +234,44 @@
     height: 30vh;
   }
 
-  .card .text-xs{
-    font-size: .8rem;
+  .card .text-xs {
+    font-size: 0.8rem;
   }
-  
+
   .card-shadow {
     box-shadow: rgb(221, 221, 221) 10px 20px 50px;
     border-radius: 0.3rem;
   }
-  
+
   .card-body {
     margin: 1rem 0;
   }
-  
+
   .card-header {
     font-size: 1.4rem;
   }
-  
+
   .card-footer {
     margin-top: auto;
   }
-  
+
   .section-6 {
-    position:relative;
-    padding: .3rem 1rem;
+    position: relative;
+    padding: 0.3rem 1rem;
     width: auto;
     background-color: #fafafa;
     color: rgb(94, 92, 92);
   }
-  
+
   .footer {
     margin-top: -8rem;
     background-color: #444935;
   }
-  
+
   .justify-between {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  
-  
-  }
+}
