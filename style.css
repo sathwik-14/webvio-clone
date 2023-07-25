@@ -356,14 +356,14 @@ li {
 
 .section-6 {
   position: relative;
-  padding: 0.3rem 1rem 1em 1em;
-  width: 75vw;
+  padding:1.5rem 1rem;
+  width: 80vw;
   background-color: #fafafa;
   color: rgb(94, 92, 92);
 }
 
 .footer {
-  margin-top: -9rem;
+  margin-top: -8rem;
   background-color: #444935;
 }
 
